@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.home-section {
+  height: 89vh;
+  color: #f1f1f0;
+}
+
+.home-section .section-content {
+  width: 90%;
+  margin-left: 2.5%;
+  overflow-y: visible;
+  word-wrap: break-word;
+}
+
+.home-section h1 {
+  padding-top: 40vh;
+  font-size: 3em;
+}
+
+.home-section p {
+  font-size: 2em;
+  width: 70%;
+}
+
+span {
+  display: inline-block;
+  color: #ffff00;
+  font-size: 1.2em;
+  transition: 0.1s ease-out;
+}
+
+span:hover {
+  color: palegoldenrod;
+  transform: scale(1.05);
+}
