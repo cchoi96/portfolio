@@ -1,0 +1,79 @@
+.project-section {
+  display: block;
+  overflow: auto;
+  padding: 100px 0 100px 30px;
+}
+
+.project-section h1:after {
+  content: " ";
+  display: block;
+  width: 50px;
+  margin: 10px auto -10px 0;
+  border: 2px solid white;
+}
+
+.project-section img {
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.project-section .content {
+  width: 85%;
+  padding: 40px 0 40px 0;
+}
+
+.project-link {
+  width: 100%;
+  border: 2px solid #eee;
+  display: inline-block;
+  transition: all 0.2s ease-out;
+}
+
+.project-link:hover {
+  transform: scale(1.05);
+  border: 2px solid palegoldenrod;
+}
+
+.project-icon {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.project-icon:hover {
+  color: #29c6b2;
+}
+
+.skills-tag {
+  display: inline-block;
+  text-align: left;
+  margin: 0 5px 5px 0;
+  padding: 0 2px 0 2px;
+  border: 1px solid #f1f1f0;
+  border-radius: 2px;
+}
+
+@media (min-width: 700px) {
+  .project-section {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 900px) {
+  .project-section .title {
+    width: 25%;
+    float: left;
+  }
+
+  .project-section .content {
+    width: 65%;
+    margin-right: 8%;
+    float: right;
+    padding-top: 0;
+  }
+
+  .project-columns {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+  }
+}
