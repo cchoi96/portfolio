@@ -1,25 +1,68 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');;
 
 .home-section {
-  height: 89vh;
+  height: 100vh;
   color: #f1f1f0;
 }
 
 .home-section .section-content {
   width: 90%;
-  margin-left: 3%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   overflow-y: visible;
   word-wrap: break-word;
 }
 
+.home-section h2 {
+  color: yellow;
+  padding-top: 30vh;
+  font-size: 1em;
+}
+
 .home-section h1 {
-  padding-top: 40vh;
-  font-size: 3em;
+  font-size: 4em;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .home-section p {
   font-size: 2em;
   width: 70%;
+  display: none;
+}
+
+.description-span {
+  color: yellow;
+}
+
+@media only screen and (min-width: 367px) {
+  .home-section h2, .home-section h1, .home-section p {
+    text-align: left;
+    width: 60vw;
+    margin-left: 3%
+  }
+
+  .home-section p {
+    display: inline;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .home-section h2 {
+    font-size: 1.6em;
+  }
+
+  .home-section h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .home-section h1 {
+    font-size: 5em;
+  }
 }
 
 /* span {
@@ -33,3 +76,7 @@ span:hover {
   color: palegoldenrod;
   transform: scale(1.05);
 } */
+/* 
+.home-section .section-content {
+  width: 90%;
+  margin-left: 3%; */

@@ -1,7 +1,9 @@
 .project-section {
+  position: relative;
   display: block;
   overflow: auto;
   padding: 100px 0 100px 30px;
+  background: #84CEEB;
 }
 
 .project-section h1:after {

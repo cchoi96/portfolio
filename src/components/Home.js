@@ -26,7 +26,7 @@ const Home = () => {
     }
 
     app.heroResize = () => {
-      if ($(window).width() < 320) {
+      if ($(window).width() < 350) {
         $("#hero-animation").html("CC")
       } else {
         $("#hero-animation").html("CHRIS CHOI")
@@ -63,7 +63,7 @@ const Home = () => {
     app.init()
 
     return function cleanup() {
-      let app = {}
+      app = {}
     }
   }, [])
 
@@ -72,6 +72,15 @@ const Home = () => {
       <div className="section-content">
         <h2 className="home-description">FULL-STACK DEVELOPER</h2>
         <h1 id="hero-animation"></h1>
+        <p>
+          Hey there! I am a Toronto-based{" "}
+          <a href="https://github.com/cchoi96" target="_blank">
+            {" "}
+            <span className='description-span'>full-stack developer </span>
+          </a>
+          , Ethiopian coffee enthusiast, and life-long Tottenham Hotspur
+          supporter.
+        </p>
       </div>
     </div>
   )
@@ -79,23 +88,3 @@ const Home = () => {
 
 export default Home
 
-{
-  /* <p>
-          Hey, my name is{" "}
-          <span>
-            <a
-              href="https://www.linkedin.com/in/chris-choi-98661598/"
-              target="_blank"
-            >
-              <b> Chris</b>
-            </a>
-          </span>
-          , and I am a{" "}
-          <a href="https://github.com/cchoi96" target="_blank">
-            {" "}
-            <span>full-stack developer</span>
-          </a>
-          , Ethiopian coffee enthusiast, and life-long Tottenham Hotspur
-          supporter.
-        </p> */
-}
