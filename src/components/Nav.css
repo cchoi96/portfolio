@@ -6,6 +6,7 @@
   right: 10%;
   font-size: 1.1em;
   color: #f1f1f0;
+  z-index: 999;
 }
 
 .navbar ul {
@@ -27,7 +28,13 @@
 
 #logo {
   position: fixed;
+  top: 40px;
+  right: 40px;
   display: none;
+}
+
+#logo img {
+  width: 60px;
 }
 
 @media only screen and (min-width: 367px) {

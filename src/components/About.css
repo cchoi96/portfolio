@@ -1,0 +1,62 @@
+.about-section {
+  position: relative;
+  display: block;
+  overflow: auto;
+  padding: 100px 0 100px 30px;
+  color: #f1f1f0;
+}
+
+.about-section h1:after {
+  content: " ";
+  display: block;
+  width: 75px;
+  margin: 10px auto -10px 0;
+  border: 2px solid;
+}
+
+.about-section img {
+  padding-top: 20px;
+}
+
+.about-section .content img {
+  height: 80px;
+  padding: 30px 30px 30px 0;
+}
+
+.about-section .content {
+  width: 80%;
+  padding: 40px 0 40px 0;
+}
+
+.about-section p {
+  font-size: 1.5em;
+  width: 90%;
+}
+
+.about-section span {
+  color: yellow;
+}
+
+@media (min-width: 700px) {
+  .about-section {
+    padding-left: 100px;
+  }
+}
+@media (min-width: 770px) {
+  .about-section .title {
+    width: 25%;
+    float: left;
+  }
+
+  .about-section .content {
+    width: 60%;
+    margin-right: 13%;
+    float: right;
+    padding-top: 0;
+  }
+
+  .about-section h2 {
+    margin-top: 20px;
+    font-size: 2em;
+  }
+}

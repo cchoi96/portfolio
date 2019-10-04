@@ -41,7 +41,7 @@ const Home = () => {
 
     app.renderHero = (str, index) => {
       let alphabetIndex = str.charCodeAt(index) - 64
-      let speed = 40 + (500 / alphabetIndex) * 0.6
+      let speed = 60 + (1 / alphabetIndex) * 0.6
       if (index >= str.length) {
         $("#hero-animation span").remove()
         $(".home-section h2").css("transform", "none")
@@ -52,7 +52,7 @@ const Home = () => {
       let intervalId = setInterval(function() {
         let temp = String.fromCharCode(i)
         $("#hero-animation span").html(temp)
-        if (temp === str[index] || i >= 90 || str[index] === " ") {
+        if (temp === str[index] || i >= 80 || str[index] === " ") {
           $("#hero-animation").html(`${str.slice(0, index + 1)}<span></span>`)
           clearInterval(intervalId)
           app.renderHero(str, index + 1)
@@ -76,7 +76,7 @@ const Home = () => {
           Hey there! I am a Toronto-based{" "}
           <a href="https://github.com/cchoi96" target="_blank">
             {" "}
-            <span className='description-span'>full-stack developer </span>
+            <span className="description-span">full-stack developer</span>
           </a>
           , Ethiopian coffee enthusiast, and life-long Tottenham Hotspur
           supporter.
@@ -87,4 +87,3 @@ const Home = () => {
 }
 
 export default Home
-

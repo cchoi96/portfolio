@@ -3,25 +3,31 @@
   display: block;
   overflow: auto;
   padding: 100px 0 100px 30px;
-  background: #84CEEB;
+  background: #84ceeb;
+}
+
+.title img {
+  width: 75px;
 }
 
 .project-section h1:after {
   content: " ";
   display: block;
-  width: 50px;
+  width: 75px;
   margin: 10px auto -10px 0;
   border: 2px solid white;
 }
 
 .project-section img {
   margin-top: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .project-section .content {
-  width: 85%;
+  width: 80%;
   padding: 40px 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-link {
@@ -37,8 +43,8 @@
 }
 
 .project-icon {
-  font-size: 0.9em;
-  margin-bottom: 10px;
+  font-size: 1em;
+  margin-left: 10px;
 }
 
 .project-icon:hover {
@@ -49,7 +55,7 @@
   display: inline-block;
   text-align: left;
   margin: 0 5px 5px 0;
-  padding: 0 2px 0 2px;
+  padding: 4px 2px 4px 2px;
   border: 1px solid #f1f1f0;
   border-radius: 2px;
 }
