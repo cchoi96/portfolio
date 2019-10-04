@@ -15,7 +15,7 @@ import sass from "../images/skills/sass.png"
 
 const About = () => {
   return (
-    <div className="about-section">
+    <div className="about-section" id="about">
       <div className="section-content">
         <div className="title">
           <h1>ABOUT ME</h1>
@@ -24,8 +24,9 @@ const About = () => {
         <div className="content">
           <h2>CHRIS CHOI</h2>
           <p>
-            As a former biochemist turned full-stack developer, I enjoy learning
-            new skills and coming up with solutions to interesting problems.
+            As a former biochemist turned full-stack developer, I love
+            developing new skills and coming up with solutions to interesting
+            problems.
             <br />I write code in <span>
               HTML, CSS, Javascript, and React.
             </span>{" "}

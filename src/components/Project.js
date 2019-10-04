@@ -77,7 +77,7 @@ const Project = () => {
             </a>
             <div className="project-info">
               <h2>
-                Pokedex
+                Pokédex
                 <a href="https://github.com/cchoi96/pokedex" target="_blank">
                   <FontAwesomeIcon icon={faGithub} className="project-icon" />
                 </a>

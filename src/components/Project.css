@@ -15,7 +15,7 @@
   display: block;
   width: 75px;
   margin: 10px auto -10px 0;
-  border: 2px solid white;
+  border: 2px solid #f1f1f0;
 }
 
 .project-section img {
@@ -32,7 +32,7 @@
 
 .project-link {
   width: 100%;
-  border: 2px solid #eee;
+  border: 2px solid #f1f1f0;
   display: inline-block;
   transition: all 0.2s ease-out;
 }
@@ -45,10 +45,11 @@
 .project-icon {
   font-size: 1em;
   margin-left: 10px;
+  transition: 0.2s ease-out;
 }
 
 .project-icon:hover {
-  color: #29c6b2;
+  color: #5685e9;
 }
 
 .skills-tag {

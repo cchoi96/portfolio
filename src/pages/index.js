@@ -3,6 +3,8 @@ import Nav from "../components/Nav"
 import Home from "../components/Home"
 import Project from "../components/Project"
 import About from "../components/About"
+import Contact from "../components/Contact"
+import Footer from "../components/Footer"
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Home />
       <Project />
       <About />
+      <Contact />
+      <Footer />
     </Fragment>
   )
 }

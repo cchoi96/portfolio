@@ -41,7 +41,7 @@ const Home = () => {
 
     app.renderHero = (str, index) => {
       let alphabetIndex = str.charCodeAt(index) - 64
-      let speed = 60 + (1 / alphabetIndex) * 0.6
+      let speed = 60 + (0.1 / alphabetIndex) * 0.6
       if (index >= str.length) {
         $("#hero-animation span").remove()
         $(".home-section h2").css("transform", "none")
@@ -52,7 +52,7 @@ const Home = () => {
       let intervalId = setInterval(function() {
         let temp = String.fromCharCode(i)
         $("#hero-animation span").html(temp)
-        if (temp === str[index] || i >= 80 || str[index] === " ") {
+        if (temp === str[index] || i >= 72 || str[index] === " ") {
           $("#hero-animation").html(`${str.slice(0, index + 1)}<span></span>`)
           clearInterval(intervalId)
           app.renderHero(str, index + 1)
