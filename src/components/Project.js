@@ -54,12 +54,12 @@ const Project = () => {
             </div>
           </div>
           <div className="project-columns">
-            <a href="https://github.com/cchoi96/tinyapp" target="_blank">
+            <a href="https://miniscurl.herokuapp.com/" target="_blank">
               <img src={TinyApp} className="project-link" />
             </a>
             <div className="project-info">
               <h2>
-                TinyApp
+                MiniscURL
                 <a href="https://github.com/cchoi96/tinyapp" target="_blank">
                   <FontAwesomeIcon icon={faGithub} className="project-icon" />
                 </a>
