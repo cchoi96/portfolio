@@ -11,7 +11,7 @@ import mongo from "../images/skills/mongo.png"
 import node from "../images/skills/node.png"
 import postgres from "../images/skills/postgres.png"
 import react from "../images/skills/react.png"
-import sass from "../images/skills/sass.png"
+import sass from "../images/skills/Sass.png"
 
 const About = () => {
   return (
