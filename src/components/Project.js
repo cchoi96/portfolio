@@ -18,7 +18,7 @@ const Project = () => {
         </div>
         <div className="content">
           <div className="project-columns">
-            <a href="https://github.com/cchoi96/sprig" target="_blank">
+            <a href="https://sprigapp.herokuapp.com/" target="_blank">
               <img src={Sprig} className="project-link" />
               {/* 2620 * 1390 */}
             </a>
