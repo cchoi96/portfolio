@@ -7,13 +7,13 @@ import contact from "../images/sidebar/contact.png"
 
 const Contact = () => {
   return (
-    <div class="contact-section" id="contact">
-      <div class="section-content">
-        <div class="title">
+    <div className="contact-section" id="contact">
+      <div className="section-content">
+        <div className="title">
           <h1>LET'S TALK</h1>
           <img src={contact} alt="contact icon" />
         </div>
-        <div class="content">
+        <div className="content">
           <div>
             <p>
               I would love to chat with you about my code, my life, or where to
@@ -22,16 +22,16 @@ const Contact = () => {
               <br /> Feel free to reach out!
             </p>
             <a href="mailto:chrischoi96@gmail.com" target="_blank">
-              <FontAwesomeIcon icon={faEnvelope} class="contact-icon" />
+              <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
             </a>
             <a href="https://github.com/cchoi96" target="_blank">
-              <FontAwesomeIcon icon={faGithub} class="contact-icon" />
+              <FontAwesomeIcon icon={faGithub} className="contact-icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/chris-choi-98661598/"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faLinkedin} class="contact-icon" />
+              <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
             </a>
           </div>
         </div>
