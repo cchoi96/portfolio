@@ -17,7 +17,7 @@
 
 .home-section h2 {
   color: yellow;
-  padding-top: 35vh;
+  padding-top: 20vh;
   font-size: 1em;
 }
 
@@ -50,6 +50,12 @@
   .home-section p {
     display: inline;
     font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 612px) {
+  .home-section h2 {
+    padding-top: 35vh;
   }
 }
 
