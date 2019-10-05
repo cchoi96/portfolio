@@ -1,4 +1,5 @@
 import React, { Fragment } from "react"
+import { Helmet } from "react-helmet"
 import Nav from "../components/Nav"
 import Home from "../components/Home"
 import Project from "../components/Project"
@@ -9,6 +10,10 @@ import Footer from "../components/Footer"
 const App = () => {
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Chris Choi</title>
+      </Helmet>
       <Nav />
       <Home />
       <Project />
