@@ -62,7 +62,7 @@
     height: 100%;
     left: -4px;
     bottom: 0;
-    background-color: palegoldenrod;
+    background-color: #fdfd96;
     visibility: hidden;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
@@ -81,7 +81,7 @@
   }
 
   .navbar li:hover {
-    color: palegoldenrod;
+    color: #fdfd96;
   }
 
   .navbar-center,

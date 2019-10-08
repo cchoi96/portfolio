@@ -44,12 +44,17 @@
 }
 
 .contact-icon:hover {
-  color: #5685e9;
+  color: #fdfd96;
+  transform: scale(1.05);
 }
 
 .contact-section p {
   font-size: 1.5em;
   width: 90%;
+}
+
+.contact-section span {
+  color: #fdfd96;
 }
 
 @media (min-width: 700px) {

@@ -20,7 +20,6 @@
 
 .project-section img {
   margin-top: 20px;
-  border-radius: 10px;
 }
 
 .project-section .content {
@@ -39,26 +38,31 @@
 
 .project-link:hover {
   transform: scale(1.05);
-  border: 2px solid palegoldenrod;
+  border: 2px solid #fdfd96;
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
 
 .project-icon {
   font-size: 1em;
-  margin-left: 10px;
+  margin: -5px 0 0 10px;
   transition: 0.2s ease-out;
 }
 
 .project-icon:hover {
-  color: #5685e9;
+  color: #fdfd96;
+  transform: scale(1.05);
+}
+
+.project-info h2 {
+  display: flex;
 }
 
 .skills-tag {
   display: inline-block;
   text-align: left;
   margin: 0 5px 5px 0;
-  padding: 4px 2px 4px 2px;
+  padding: 8px 8px 5px 8px;
   border: 1px solid #f1f1f0;
-  border-radius: 2px;
 }
 
 @media (min-width: 700px) {

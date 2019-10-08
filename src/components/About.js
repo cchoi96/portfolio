@@ -27,9 +27,8 @@ const About = () => {
             As a former biochemist turned full-stack developer, I love
             developing new skills and coming up with solutions to interesting
             problems.
-            <br />I write code in <span>
-              HTML, CSS, Javascript, and React.
-            </span>{" "}
+            <br />
+            <br />I currently write code with <span>React and NodeJS</span>, and
             I strive to make{" "}
             <span>beautiful, mobile-first web applications</span> with clean,
             re-usable code.

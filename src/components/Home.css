@@ -16,7 +16,6 @@
 }
 
 .home-section h2 {
-  color: yellow;
   padding-top: 20vh;
   font-size: 1em;
 }
@@ -35,7 +34,7 @@
 }
 
 .description-span {
-  color: yellow;
+  color: #fdfd96;
 }
 
 @media only screen and (min-width: 367px) {

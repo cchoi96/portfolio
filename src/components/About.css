@@ -20,7 +20,7 @@
 
 .about-section .content img {
   height: 70px;
-  padding: 30px 30px 30px 0;
+  padding: 1.5em 1.5em 1.5em 0;
 }
 
 .about-section .content {
@@ -34,7 +34,7 @@
 }
 
 .about-section span {
-  color: yellow;
+  color: #fdfd96;
 }
 
 @media (min-width: 700px) {

@@ -16,8 +16,14 @@ const Contact = () => {
         <div className="content">
           <div>
             <p>
-              I would love to chat with you about my code, my life, or where to
-              find the best burger in Toronto (currently Rudy).
+              I would love to chat with you about my code, my life, or my
+              favourite coffee region in Ethiopia (currently{" "}
+              <a
+                href="http://blog.suvie.com/a-beginners-guide-to-coffee-ethiopian-yirgacheffe"
+                target="_blank"
+              >
+                <span>Yirgacheffe</span>).
+              </a>
               <br />
               <br /> Feel free to reach out!
             </p>
