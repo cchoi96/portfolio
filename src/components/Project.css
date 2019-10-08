@@ -37,7 +37,7 @@
 }
 
 .project-link:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   border: 2px solid #fdfd96;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
