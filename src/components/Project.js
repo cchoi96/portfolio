@@ -3,7 +3,7 @@ import "./Project.css"
 import Flick from "../images/projects/Flick.png"
 import Pokedex from "../images/projects/Pokedex.png"
 import Sprig from "../images/projects/Sprig.png"
-import TinyApp from "../images/projects/TinyApp.png"
+import MiniscURL from "../images/projects/MiniscURL.png"
 import ProjectIcon from "../images/sidebar/project.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
@@ -55,12 +55,12 @@ const Project = () => {
           </div>
           <div className="project-columns">
             <a href="https://miniscurl.herokuapp.com/" target="_blank">
-              <img src={TinyApp} className="project-link" />
+              <img src={MiniscURL} className="project-link" />
             </a>
             <div className="project-info">
               <h2>
                 MiniscURL
-                <a href="https://github.com/cchoi96/tinyapp" target="_blank">
+                <a href="https://github.com/cchoi96/miniscurl" target="_blank">
                   <FontAwesomeIcon icon={faGithub} className="project-icon" />
                 </a>
               </h2>
