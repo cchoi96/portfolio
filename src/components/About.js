@@ -28,14 +28,12 @@ const About = () => {
             developing new skills and coming up with solutions to interesting
             problems.
             <br />
-            <br />I currently write code with <span>React and NodeJS</span>, and
+            <br />I enjoy developing with <span>React and NodeJS</span>, and
             I strive to make{" "}
             <span>beautiful, mobile-first web applications</span> with clean,
             re-usable code.
             <br />
-            <br />I still have a tremendous amount to learn, but I am extremely
-            excited to continue developing into an excellent developer and
-            designer.
+            <br />I am currently a software developer at <a href="https://www.cover.com" target="_blank">Cover</a> using Ruby on Rails and React to develop RESTful microservices and web applications.
           </p>
           <img src={html} alt="html icon" />
           <img src={css} alt="css icon" />
