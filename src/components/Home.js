@@ -76,7 +76,7 @@ const Home = () => {
           Hey there! I am a Toronto-based{" "}
           <a href="https://github.com/cchoi96" target="_blank">
             {" "}
-            <span className="description-span">full-stack developer</span>
+            <span className="description-span">full stack developer</span>
           </a>
           , Ethiopian coffee enthusiast, and life-long Tottenham Hotspur
           supporter.
