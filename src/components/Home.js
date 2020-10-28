@@ -70,7 +70,7 @@ const Home = () => {
   return (
     <div className="home-section">
       <div className="section-content">
-        <h2 className="home-description">FULL-STACK DEVELOPER</h2>
+        <h2 className="home-description">FULL STACK DEVELOPER</h2>
         <h1 id="hero-animation"></h1>
         <p>
           Hey there! I am a Toronto-based{" "}

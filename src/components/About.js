@@ -33,7 +33,7 @@ const About = () => {
             <span>beautiful, mobile-first web applications</span> with clean,
             re-usable code.
             <br />
-            <br />I am currently a software developer at <a href="https://www.cover.com" target="_blank">Cover</a> using Ruby on Rails and React to develop RESTful microservices and web applications.
+            <br />I am currently a software developer at <a href="https://www.nexjhealth.com/" target="_blank">Cover</a> using Node and a custom framework to help develop a proven chronic disease management application.
           </p>
           <img src={html} alt="html icon" />
           <img src={css} alt="css icon" />
